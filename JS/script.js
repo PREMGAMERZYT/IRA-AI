@@ -82,7 +82,7 @@ function takecmd(msg) {
     window.open("calculator://");
   } else if (msg.includes("open whatsapp")) {
     speak("opening whatsapp...");
-    window.open("whatsapp://");
+    // window.open("whatsapp://");
     window.location.href = "https://wa.me/";
   } else {
     let finel = "Here is the information about " + msg.replace("Sophia", "");
